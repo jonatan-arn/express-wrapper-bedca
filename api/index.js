@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", (req, res) => res.send("Express on Vercel"));
 
-var foodsRouter = require("./routes/food");
+var foodsRouter = require("../routes/food");
 
 app.use("/food", foodsRouter);
 
