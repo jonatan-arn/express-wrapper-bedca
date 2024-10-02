@@ -1,1 +1,1 @@
-require("./bin/www");
+var www = require("./bin/www");
